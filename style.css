@@ -2,3 +2,168 @@
     margin: 0px;
     padding: 0px;
 }
+
+.header-top {
+    background-color: #2F8ED7;
+    color: #fff;
+    display: flex;
+    padding: 15px;
+    justify-content: space-between;
+}
+
+.header-top #phone {
+    margin-left: 70px;
+}
+
+.header-top #phone-digit {
+    margin-right: 60px;
+}
+
+.header-nav-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+
+.header-nav-container .header-logo {
+    padding-left: 65px;
+}
+
+.header-nav-container .header-nav {
+    padding-right: 40px;
+}
+
+.header-logo {
+    font-size: 1.5rem;
+}
+
+nav {
+    font-size: 1.2rem;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    padding-right: 2rem;
+    flex: auto;
+    cursor: pointer;
+    text-align: center;
+}
+
+nav ul li:hover {
+    background-color: #2F8ED7;
+}
+
+.header-main {
+    background: linear-gradient(rgba(0, 119, 255, 0.342), #2F8ED7), url("./image/banner.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    color: #fff;
+    text-align: center;
+    padding-top: 240px
+}
+
+.header-text h1 {
+    font-size: 90px;
+}
+
+.header-text p {
+    font-size: 35px;
+}
+
+.welcome-company {
+    background-color: #EFEFEF;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.welcome-company-text {
+    padding: 70px;
+}
+
+.welcome-company-text p {
+    color: grey;
+}
+
+.welcome-company-btn a {
+    width: 150px;
+    text-decoration: none;
+    border: 1px solid #2F8ED7;
+    background-color: #2F8ED7;
+    color: white;
+    margin: 0px 10px;
+    padding: 12px 0px;
+    display: inline-block;
+    text-align: center;
+}
+
+.welcome-company-btn {
+    flex-grow: 1;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.service-heading {
+    text-align: center;
+    padding: 40px 70px;
+}
+
+.service-heading p {
+    color: grey;
+}
+
+.services {
+    padding: 10px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.service-1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.service-title {
+    color: grey;
+}
+
+.service-1 .service-icon {
+    background-color: #2F8ED7;
+    color: #fff;
+    margin: 0px 10px;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #EFEFEF;
+    text-align: center;
+    padding: 35px 0px;
+    position: relative;
+}
+
+footer h1 {
+    position: absolute;
+    bottom: 0;
+    left: 42%;
+}
