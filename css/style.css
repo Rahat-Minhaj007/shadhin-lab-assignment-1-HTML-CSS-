@@ -65,7 +65,7 @@ nav ul li:hover {
 }
 
 .header-main {
-    background: linear-gradient(rgba(0, 119, 255, 0.342), #2F8ED7), url("./image/banner.jpg");
+    background: linear-gradient(rgba(0, 119, 255, 0.342), #2F8ED7), url("../image/banner.jpg");
     height: 80vh;
     background-size: cover;
     background-repeat: no-repeat;
